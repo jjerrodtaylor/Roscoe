@@ -1,0 +1,133 @@
+body{
+	background:url(../images/LoginBg.gif) repeat left top;
+	color:#555555;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:12px;
+	margin:0px;
+}
+a img{
+	border:0px;
+}
+.Text{
+	font-family:"myriad-pro-1","myriad-pro-2","Helvetica","Arial",sans-serif;
+}
+#LoginWrpapper{
+	background:url(../images/LoginTopBg.png) repeat-x left top;
+	_background:url(../images/LoginBg1.gif) repeat-x left top;
+}
+#header {
+color:#FFFFFF;
+margin:0 auto;
+padding:110px 0 70px;
+text-align:center;
+width:960px;
+}
+#header .logo{
+	margin:0px;
+	color:#FFF;
+	padding:0px;
+	text-align: center;
+}
+#LoginContainer{
+	width:100%;
+}
+#from.LoginForm{
+	width:960px;
+	margin:0 auto;
+}
+#login input#UserEmail, #login input#UserPassword {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 0 none;
+    color: #555555;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    padding: 4px;
+    width: 220px;
+}
+#login {
+	background:none;
+	width:340px;
+	/*padding:70px 0 0 0;*/
+	margin:0 auto;
+	height:240px;
+	overflow:hidden;
+	color:#FFF;
+	font-size:14px;
+}
+#authMessage, #flashMessage{
+	width:350px;
+	float:none;
+	color:#FFF;
+	height:40px;
+	margin:0 auto;
+	margin-bottom:20px;
+	border:0 none;
+	color:#FFF;
+	padding:0 10px 0 20px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	-khtml-border-radius:3px;
+	font-size:12px;
+	line-height:40px;
+	text-indent:10px;
+	background:url(../images/information.png) left top no-repeat #000;
+	background-position:10px;
+}
+.ActionMessage .message{
+	
+	padding:0 0 0 20px;
+	margin:0px;
+}
+.LoginFormBlock{
+	margin:0 10px;
+}
+#login p{
+	width:100%;
+	margin:10px 0;
+}
+#login .label {
+	color:#FFFFFF;
+	float:left;
+	font-size:14px;
+	margin:3px 0 0 0;
+	width:80px;
+}
+#login input#AdminUsername, #login input#AdminPassword {
+	width:220px;
+	color:#555555;
+	background:#FFF;
+	border:0px;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:12px;
+	padding:4px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	-khtml-border-radius:3px;
+}
+input.checkbox{
+	margin:0 3px 0 0;
+	position:relative;
+	top:2px;
+}
+.GreenBtn, #login input.login_btn{
+	background:url(../images/GreenBar.gif) repeat-x scroll left top #6a9b3b;
+	border:1px solid #619133;
+	color:#FFF;
+	font-weight:bold;
+	cursor:pointer;
+	display:inline-block;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:12px;
+	padding:4px 7px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	-khtml-border-radius:3px;
+}
+.LoginNotes{
+	border-top:1px solid #666;
+	margin:25px 0 0 0;
+	padding:10px 0 0 0;
+}
+.white{
+	color:#FFF;
+}

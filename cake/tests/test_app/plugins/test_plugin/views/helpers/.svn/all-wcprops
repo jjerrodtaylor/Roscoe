@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/filesharing/!svn/ver/1/cake/tests/test_app/plugins/test_plugin/views/helpers
+END
+test_plugin_app.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/filesharing/!svn/ver/1/cake/tests/test_app/plugins/test_plugin/views/helpers/test_plugin_app.php
+END
+other_helper.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/filesharing/!svn/ver/1/cake/tests/test_app/plugins/test_plugin/views/helpers/other_helper.php
+END
+plugged_helper.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/filesharing/!svn/ver/1/cake/tests/test_app/plugins/test_plugin/views/helpers/plugged_helper.php
+END

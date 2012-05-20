@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/filesharing/!svn/ver/1/cake/tests/test_app/views/pages
+END
+extract.ctp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/filesharing/!svn/ver/1/cake/tests/test_app/views/pages/extract.ctp
+END
+home.ctp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/filesharing/!svn/ver/1/cake/tests/test_app/views/pages/home.ctp
+END
+empty
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/filesharing/!svn/ver/1/cake/tests/test_app/views/pages/empty
+END

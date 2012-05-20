@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/filesharing/!svn/ver/1/app/webroot/js/editor/dialog/common/images
+END
+locked.gif
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/filesharing/!svn/ver/1/app/webroot/js/editor/dialog/common/images/locked.gif
+END
+reset.gif
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/filesharing/!svn/ver/1/app/webroot/js/editor/dialog/common/images/reset.gif
+END
+unlocked.gif
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/filesharing/!svn/ver/1/app/webroot/js/editor/dialog/common/images/unlocked.gif
+END

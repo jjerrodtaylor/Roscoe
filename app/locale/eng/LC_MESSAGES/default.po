@@ -1,0 +1,107 @@
+msgid "Products_Status"
+msgstr "Products Status"
+msgid "Products_Name"
+msgstr "Products Name"
+msgid "Products_description"
+msgstr "Products Description"
+msgid "Product_Options"
+msgstr "Product Options"
+msgid "Record_has_been_added_successfully"
+msgstr "Record has been added successfully"
+msgid "Product_Options_Name"
+msgstr "Product Options Name"
+msgid "Add_Static_pages"
+msgstr "Add Static pages"
+msgid "Static_Page_Type"
+msgstr "Static Page Type"
+msgid "Static_Pages"
+msgstr "Static Pages"
+msgid "Page_Url"
+msgstr "Page Url"
+msgid "Search_by_title"
+msgstr "Search by title"
+msgid "Record_have_been_activated_successfully"
+msgstr "Record have been activated successfully"
+msgid "Record_have_been_deactivated_successfully"
+msgstr "Record have been deactivated successfully"
+msgid "Record_has_been_updated"
+msgstr "Record has been updated"
+msgid "No_Records_Found"
+msgstr "No Records Found"
+msgid "Product_Options_status"
+msgstr "Product Options Status "
+msgid "Meta_Keyword"
+msgstr "Meta Keyword"
+msgid "Edit_static_pages"
+msgstr "Edit static pages"
+msgid "Add_New"
+msgstr "Add New"
+msgid "Static_pages"
+msgstr "Static pages"
+msgid "Record_has_not_been_created"
+msgstr "Record has not been created"
+msgid "Record_has_been_deleted_successfully"
+msgstr "Record has been deleted successfully"
+msgid "My_Account"
+msgstr "My Account"
+msgid "User_id"
+msgstr "User id"
+msgid "Password"
+msgstr "Password"
+msgid "Register"
+msgstr "Register"
+msgid "My_Wishlist"
+msgstr "My Wishlist"
+msgid "Help"
+msgstr "Help"
+
+msgid "Mobile_Phones"
+msgstr "Mobile Phones"
+msgid "view_all"
+msgstr "view all"
+msgid "Accessories"
+msgstr "Accessories"
+
+msgid "New_Releases"
+msgstr "New Releases"
+
+msgid "Best_Selling"
+msgstr "Best Selling"
+
+msgid "Products_Carrier"
+msgstr "Products Carrier"
+
+msgid "Most_popular"
+msgstr "Most Popular"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

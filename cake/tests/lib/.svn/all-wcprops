@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/filesharing/!svn/ver/1/cake/tests/lib
+END
+test_manager.php
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/filesharing/!svn/ver/1/cake/tests/lib/test_manager.php
+END
+cake_web_test_case.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/filesharing/!svn/ver/1/cake/tests/lib/cake_web_test_case.php
+END
+cake_test_case.php
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/filesharing/!svn/ver/1/cake/tests/lib/cake_test_case.php
+END
+code_coverage_manager.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/filesharing/!svn/ver/1/cake/tests/lib/code_coverage_manager.php
+END
+cake_test_suite_dispatcher.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/filesharing/!svn/ver/1/cake/tests/lib/cake_test_suite_dispatcher.php
+END
+cake_test_model.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/filesharing/!svn/ver/1/cake/tests/lib/cake_test_model.php
+END
+cake_test_fixture.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/filesharing/!svn/ver/1/cake/tests/lib/cake_test_fixture.php
+END

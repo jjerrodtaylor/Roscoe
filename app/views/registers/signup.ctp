@@ -1,0 +1,1 @@
+<?php e($this->element('front/middle')); ?>

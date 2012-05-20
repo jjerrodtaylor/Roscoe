@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/filesharing/!svn/ver/1/cake/tests/cases/console/libs
+END
+acl.test.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/filesharing/!svn/ver/1/cake/tests/cases/console/libs/acl.test.php
+END
+schema.test.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/filesharing/!svn/ver/1/cake/tests/cases/console/libs/schema.test.php
+END
+bake.test.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/filesharing/!svn/ver/1/cake/tests/cases/console/libs/bake.test.php
+END
+shell.test.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/filesharing/!svn/ver/1/cake/tests/cases/console/libs/shell.test.php
+END
+api.test.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/filesharing/!svn/ver/1/cake/tests/cases/console/libs/api.test.php
+END

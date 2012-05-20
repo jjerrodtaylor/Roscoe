@@ -1,0 +1,1063 @@
+@charset "utf-8";
+/* CSS Document */
+html, body {
+	margin:0;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#787878;
+	background: #fff;
+}
+/*ClearFix*/
+.Clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+.Clear {
+	clear:both;
+}
+.Clearfix {
+	display: inline-block;
+}
+h1 {
+	font-size: 100%;
+}
+h2 {
+	font-size: 80%;
+}
+p, a, ul, li, h1, h2, h3, h4, h5, from {
+	padding:0px;
+	margin:0px;
+}
+img {
+	padding:0px;
+	margin:0px;
+	border:0px;
+}
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+/*Text Link css*/
+.linkVU a {
+	Font-Family:Verdana, Arial, Helvetica, sans-serif;
+	text-decoration:underline;
+}
+.linkVU a:hover {
+	Font-Family: Verdana, Arial, Helvetica, sans-serif;
+	text-decoration:none;
+}
+#Header{
+	float:left;
+	width:100%;
+	background:url(../img/images/top_bg.png) repeat-x;
+	height:173px;
+}
+.HeaderConts{
+	margin:0px auto;
+	width:962px;
+}
+.HdrTop{
+	float:left;
+	width:100%;
+	padding:18px 0 0 0;
+}
+.Logo{
+	float:left;
+	width:auto;
+}
+.HdrRht{
+	float:right;
+	width:440px;
+}
+.UsrPass{
+	float:right;
+	display:block;
+	list-style-type:none;
+}
+.UsrPass li{
+	display:block;
+	list-style-type:none;
+	float:left;
+	width:210px;
+	margin-right:4px;
+}
+.UsrPass li input{
+	width:194px;
+	height:29px;
+	background:url(../img/images/username_textbx.png) no-repeat;
+	line-height:29px;
+	color:#fff;
+	padding:0 8px;
+	border:none;
+}
+.HdrRhtBtm{
+	float:right;
+	padding:7px 10px 0;
+}
+.Rembr{
+	float:left;
+	width:auto;
+	padding:0 12px 0 0;
+	color:#fff;
+	font-size:11px;
+}
+.Rembr span{
+	float:left;
+	margin-right:3px;
+}
+.Rembr label{
+	float:left;
+	padding:4px 0 0 0;
+}
+.FPass{
+	float:left;
+	width:auto;
+	padding:5px 12px 0 0;
+}
+.FPass a{
+	color:#54a62f;
+	font-size:11px;
+	text-decoration:underline;
+}
+.FPass a:hover{
+	text-decoration:none;
+}
+.HdrLgn{
+	float:left;
+	width:auto;
+	margin-right:11px;
+}
+.LgnBtn{
+	float:left;
+	border:none;
+	cursor:pointer;
+	background:url(../img/images/login_bt.png) no-repeat;
+	width:68px;
+	height:24px;
+	color:#fff;
+	text-transform:uppercase;
+	font-weight:bold;
+}
+.NUsr{
+	float:left;
+	width:auto;
+	padding:5px 0 0 0;
+	color:#fff;
+	font-size:11px;
+}
+.NUsr a{
+	font-weight:bold;
+	color:#ff8c2f;
+	text-decoration:none;
+}
+.NUsr a:hover{
+	text-decoration:underline;
+}
+.Navigation{
+	float:left;
+	width:100%;
+	padding:42px 0 0 0;
+}
+.MainNav{
+	display:block;
+	list-style-type:none;
+}
+.MainNav li{
+	display:block;
+	list-style-type:none;
+	float:left;
+	padding:0 2px;
+	background:url(../img/images/top_nav_seprator.png) no-repeat right;
+}
+.MainNav li.Last{
+	padding:0 0 0 2px;
+	background:none;
+}
+.MainNav li a{
+	font:normal 14px/36px Arial, Helvetica, sans-serif;
+	color:#dddddd;
+	padding:0 25px;
+	text-decoration:none;
+	text-transform:uppercase;
+	float:left;
+}
+.MainNav li a:hover, .MainNav li a.Select{
+	background:url(../img/images/nav_hover.png) repeat-x;
+	text-decoration:none;
+	color:#FFFFFF;
+}
+#Middle{
+	float:left;
+	background:url(../img/images/mid_bg.png) repeat-x;
+	width:100%;
+}
+.MiddleConts{
+	margin:0px auto;
+	width:962px;
+}
+.MidTop{
+	float:left;
+	width:100%;
+	padding:15px 0 0;
+}
+.MidTopImgs{
+	float:left;
+	width:382px;
+	margin-right:69px;
+}
+.MidTopSrh{
+	float:left;
+	width:502px;
+}
+.MidTopSrh h1{
+	float:left;
+	width:100%;
+	font-size:40px;
+	color:#a9a9a9;
+	text-shadow:1px 1px 2px #b7b7b7;
+}
+.MidTopSrh h1 span{
+	color:#ff8525;
+}
+.MidTopSrh h1 label{
+	color:#49a028;
+}
+.MidSrh{
+	float:left;
+	width:100%;
+	padding:8px 0 0;
+}
+.MidSrh input{
+	float:left;
+	width:486px;
+	background:url(../img/images/mid_txtBx.png) no-repeat;
+	height:44px;
+	outline:none;
+	line-height:44px;
+	padding:0 8px;
+	border:none;
+	color:#787878;
+	font-size:16px;
+}
+.AdSrh{
+	float:right;
+	padding:5px 0 0;
+	width:100%;
+}
+.AdSrh a{
+	float:right;
+	color:#54a62f;
+	font-size:14px;
+}
+.MidSrchBtnP{
+	float:right;
+	padding:5px 0 0;
+	width:100%;
+}
+.MidSrhBtn{
+	float:left;
+	background:url(../img/images/search_bt.png) no-repeat;
+	width:265px;
+	height:56px;
+	cursor:pointer;
+	color:#fff;
+	border:none;
+	font-size:25px;
+	font-weight:bold;
+}
+.MidBtm{
+	float:left;
+	width:100%;
+	padding:80px 0 0;
+}
+.SgnUp{
+	float:left;
+	width:457px;
+	margin-right:47px;
+}
+.SgnUp h2{
+	float:left;
+	width:427px;
+	background:url(../img/images/sign_up_bx_top.png) no-repeat;
+	height:45px;
+	color:#fff;
+	padding:5px 15px 0;
+	font-size:26px;
+}
+.SgnUpMid{
+	float:left;
+	width:413px;
+	background:url(../img/images/sgn_bx_mid.png) repeat-y;
+	padding:10px 22px;
+}
+.SgnUpFrm{
+	display:block;
+	list-style-type:none;
+}
+.SgnUpFrm li{
+	display:block;
+	list-style-type:none;
+	float:left;
+	width:100%;
+	margin-bottom:18px;
+}
+.SgnUpLbl{
+	float:left;
+	padding:0 0 3px 5px;
+	font-size:14px;
+}
+.SgnUpTxtBx{
+	float:left;
+	width:100%;
+}
+.SgnUpTxtBxFld{
+	float:left;
+	width:403px;
+	background:url(../img/images/sgn_frm_txtBx.png) no-repeat;
+	height:36px;
+	line-height:36px;
+	font-size:14px;
+	border:none;
+	padding:0 5px;
+	color:#a6a6a6;
+}
+.SgnUpBtm{
+	float:left;
+	width:100%;
+	background:url(../img/images/sgn_bx_btm.png) no-repeat;
+	height:11px;
+}
+.SgnAgree, .SignUpP{
+	float:left;
+	width:100%;
+}
+.SgnAgree span{
+	float:left;
+	margin-right:5px;
+	width: 20px;
+}
+.SgnAgree label{
+	float:left;
+	padding:2px 0 0;
+}
+.SgnAgree label a{
+	color:#54a62f;
+	text-decoration:underline;
+}
+.SgnAgree label a:hover{
+	text-decoration:none;
+}
+.SgnUpBtn{
+	cursor:pointer;
+	border:none;
+	background:url(../img/images/sign_up_btn.png) no-repeat;
+	width:129px;
+	height:40px;
+	color:#fff;
+	font-weight:bold;
+	font-size:20px;
+}
+.MidBtmGlry{
+	float:left;
+	width:457px;
+}
+.MidBtmGTop{
+	float:left;
+	width:100%;
+	background:url(../img/images/grey_bx_top.png) no-repeat;
+	height:2px;
+}
+.MidBtmGMid{
+	float:left;
+	width:441px;
+	background:url(../img/images/sgn_bx_mid.png) repeat-y;
+	padding:7px 8px;
+}
+.MidGlry{
+	float:left;
+	width:100%;
+	position:relative;
+	padding:0 0 10px;
+}
+.MidGlryImg{
+	float:left;
+	width:100%;
+}
+.MidGlryImg img{
+	float:left;
+	border:solid 2px #fff;
+}
+.MidGlryBts{
+	position:absolute;
+	right:10px;
+	top:222px;
+	float:left;
+}
+.GlArrowLeft{
+	float:left;
+	width:auto;
+	margin-right:5px;
+}
+.GlArrowRht{
+	float:left;
+	width:auto;
+}
+.GlryBtmCnt{
+	float:left;
+	width:100%;
+}
+.GBtmCntImg{
+	float:left;
+	width:98px;
+	border:solid 2px #fff;
+	margin-right:5px;
+}
+.GBtmCntItms{
+	float:left;
+	width:318px;
+	border:solid 1px #c7c7c7;
+	background:#fff;
+	padding:5px;
+}
+.GBtmCntItmsTyp{
+	float:left;
+	width:208px;
+	margin-right:10px;
+}
+.GBtmCntItmsTyp h3{
+	float:left;
+	width:100%;
+	color:#49a028;
+	font-size:20px;
+	padding:0 0 3px 0;
+}
+.Nghb{
+	float:left;
+	width:100%;
+	padding:0 0 5px 0;
+}
+.Nghb span{
+	float:left;
+	width:auto;
+	padding:0 3px 0 0;
+	color:#ff8525;
+}
+.ViewP{
+	float:left;
+	width:99px;
+}
+.ViewPBt{
+	float:left;
+	width:100%;
+	cursor:pointer;
+	border:none;
+	background:url(../img/images/view_profile_bt.png) no-repeat;
+	height:21px;
+	line-height:21px;
+	color:#fff;
+	font-size:11px;
+}
+#Footer{
+	float:left;
+	width:100%;
+	background:url(../img/images/bottom_bg.png) no-repeat;
+	height:112px;
+	margin-top:55px;
+}
+.FooterCnts{
+	margin:0px auto;
+	width:962px;
+	text-align:center;
+}
+.FtrLinks{
+	float:left;
+	width:100%;
+	padding:35px 0 15px;
+	text-align:center;
+	color:#ff8c2f;
+}
+.FtrLinks a{
+	color:#ff8c2f;
+}
+.FtrCpyRht{
+	float:left;
+	width:100%;
+	text-align:center;
+	color:#b3b3b3;
+	font-size:11px;
+}
+/* add new at 26-3-12 */
+.error_msg{
+	color:red;
+}
+/* add new ata 11-4-12 */
+.pageTitle{
+	color:#228C11;
+	font-size:22px;	
+	text-align:left;
+	padding-bottom:10px;
+}
+.textPage{
+	text-align:justify;
+	display:block;
+}
+.flash_good{
+    font-size:13px;
+	font-weight:bold;	
+	border:1px solid #fff;
+	background:#2D4358;	
+	line-height:24px;	
+	padding:5px 0 0 0;
+	padding-left:5px;
+	color:#5dbc4b;
+}
+
+.flash_bad {
+   font-size:13px;
+	font-weight:bold;
+	text-align:center;
+	border:1px solid #fff;
+	background:#2D4358;
+	height:30px;
+	line-height:24px;
+	padding:5px 0 0 0;
+	color:#fc0000;
+    
+}
+
+.popUpSgnUp{
+	float:left;
+	width:457px;
+	margin-right:47px;
+}
+.popUpSgnUp h2{
+	float:left;
+	width:427px;	
+	height:45px;
+	
+	padding:5px 15px 0;
+	font-size:26px;
+}
+.popUpSgnUp h5{
+	float:left;
+	height:44px;
+	padding:0 16px 0;
+	width:467px;
+	font-size:9px;
+}
+
+.popUpSgnUpMid{
+	float:left;
+	width:413px;
+	
+	padding:10px 22px;
+}
+.popUpSgnUpFrm{
+	display:block;
+	list-style-type:none;
+}
+.popUpSgnUpFrm li{
+	display:block;
+	list-style-type:none;
+	float:left;
+	width:100%;
+	margin-bottom:18px;
+}
+.popUpSgnUpBtm{
+	float:left;
+	width:100%;	
+	height:11px;
+}
+.SgnAgree .error_msg{
+    float: left;
+    width: 300px !important;
+}
+
+/* Add new for my account pages */
+/* ==================== Form style sheet ==================== */
+
+#editMyaccount .labelText { font-size: 1.2em; color: #2E6600; font-weight: bold; }
+#editMyaccount .textbox1 { border: 1px solid #909090; padding: 3px; }
+#editMyaccount hr .formik { 
+height: 1px;
+ color: gray;
+ background-color: gray;
+ border: 0 solid gray;
+ margin: 3px 0 20px 0; 
+}
+
+input:focus,textarea:focus{border-color:rgba(82, 168, 236, 0.8);-webkit-box-shadow:inset 0 1px 1px rgba(0, 0, 0, 0.075),0 0 8px rgba(82, 168, 236, 0.6);-moz-box-shadow:inset 0 1px 1px rgba(0, 0, 0, 0.075),0 0 8px rgba(82, 168, 236, 0.6);box-shadow:inset 0 1px 1px rgba(0, 0, 0, 0.075),0 0 8px rgba(82, 168, 236, 0.6);outline:0;outline:thin dotted \9;}
+.addvalidation {
+	color:red;
+}
+.error-message{
+	color:red;
+}
+/* ===========================desginer set below section at 13-4-12=============================== */
+/*------Inner pages---13-4-2012------*/
+.MidTopBg{
+	float:left;
+	width:100%;
+	background:#f4efef;
+}
+.MidBtmBg{
+	float:left;
+	width:100%;
+	background:url(../img/images/inner_mid_btm_bg.png) no-repeat;
+	height:12px;
+}
+.InnerHd{
+	float:left;
+	width:947px;
+	background:url(../img/images/inner_hd_bg.png) no-repeat;
+	height:45px;
+	color: #FFFFFF;
+    font-size: 26px;
+    padding: 5px 15px 0;
+}
+.InnerMidCnt{
+	float:left;
+	padding:15px;
+}
+.InnerMidCntL{
+	float:left;
+	width:245px;
+	margin-right:30px;
+}
+.InnerMidCntR{
+	float:left;
+	width:646px;
+}
+.MyAccItms{
+	list-style-type:none;
+}
+.MyAccItms li{
+	list-style-type:none;
+	float:left;
+	width:100%;
+	padding:0 0 2px;
+}
+.MyAccItms li a{
+	float:left;
+	width:215px;
+	background:url(../img/images/side_aro.png) no-repeat 10px 10px #5cac3b;
+	font-size:12px;
+	font-weight:bold;
+	padding:5px 0 5px 30px;
+	color:#fff;
+	text-decoration:none;
+}
+.MyAccItms li a:hover, .MyAccItms li a.Select{
+	background:url(../img/images/side_aro.png) no-repeat 10px 10px #fe6200;
+	color:#fff;
+}
+.InnerMidCntRHd{
+	float:left;
+	width:100%;
+	font-size:20px;
+	color:#49a028;
+	padding:0 0 20px;
+}
+.MyAccCnts{
+    list-style-type: none;
+}
+.MyAccCnts li{
+	list-style-type:none;
+	float:left;
+	width:100%;
+	padding:0 0 10px;
+}
+.MyAccLbl{
+	float:left;
+	width:115px;
+	padding-right:15px;
+	font-weight:bold;
+	color:#787878;
+}
+.MyAccTxtVal{
+	float:left;
+	width:280px;
+	color:#787878;
+}
+.MyAccTxtbx{
+	float:left;
+	width:250px;
+	padding:0 5px;
+	height:25px;
+	line-height:25px;
+	background:url(../img/images/txtbx_bg.png) repeat-x #fff;
+	color:#787878;
+	border:solid 1px #c1c1c1;
+}
+.MyAccDrpDwn{
+	border: 1px solid #C1C1C1;
+    color: #787878;
+    float: left;
+    height: 28px;
+    line-height: 28px;
+    padding: 3px 3px 3px 5px;
+    width: 261px;
+	background:url(../img/images/txtbx_bg.png) repeat-x #fff;
+}
+.MyAccTxtArea{
+	float:left;
+	width:250px;
+	padding:2px 5px;
+	height:100px;
+	background:url(../img/images/txtbx_bg.png) repeat-x #fff;
+	color:#787878;
+	border:solid 1px #c1c1c1;
+}
+.MyAccSubmit{
+	border:none;
+	background:url(../img/images/send_bt.png) no-repeat;
+	width:90px;
+	height:24px;
+	cursor:pointer;
+	color:#fff;
+	font-weight:bold;
+	float:left;
+}
+/* ==========add new at 19-4-12========= */
+
+ .MyImages{
+	list-style-type:none;
+}
+.MyImages li{
+	list-style-type:none;
+	float:left;	
+	padding:0 0 10px;
+} 
+.InnerMidCntRIMHd {
+	color:#787878;
+	float:left;
+	font-size:13px;
+	padding:0 0 20px;
+	width:100%;
+}
+.MyA a {
+	color:#54A62F;
+	float:left;
+	font-size:14px;
+	padding-right:48px;
+}
+.AddImageMidBtm {
+	float:left;
+	padding:80px 0 0;
+	width:100%;
+}
+.AddImageHd {	
+	float:left;
+	font-size:26px;
+	height:45px;
+	padding:5px 15px 0;
+	width:947px;
+}
+.QuestionMidBtm {
+	float:left;
+	padding:7px 0 0;
+	width:100%;
+}
+.QuestionInnerMidCnt {
+	float:left;
+	
+}
+.QuestionInnerMidCntRHd {
+	color:#49A028;
+	float:left;
+	font-size:20px;
+	padding:0 0 4px;
+	width:100%;
+}
+#fancybox-title-float-main {
+	display:none;
+} 
+/* add new at 23-4-12 */
+.AmenitiesMyAccTxtbx {
+	width:527px;
+}
+/* add new at 24-4-12 */
+.ReadMore{
+	color:#54A62F;	
+	font-size:14px;
+	
+}
+/* =======pagination css ========= */
+#pagination-flickr{
+	border:0;
+	margin-left:238px;
+	margin-bottom:40px;
+	padding:0;
+}
+
+#pagination-flickr span{
+	border:0; margin:0; padding:0;
+	font-size:11px;
+	list-style:none;
+}
+#pagination-flickr a{
+	border:solid 1px #DDDDDD;
+	margin-right:2px;
+}
+#pagination-flickr .previous-off,
+#pagination-flickr .next-off {
+	display:none;
+}
+#pagination-flickr .next a,
+#pagination-flickr .previous a {
+	font-weight:bold;
+	border:solid 1px #FFFFFF;
+	
+}
+#pagination-flickr .current{
+	color:#ff0084;
+	font-weight:bold;
+	display:block;
+	float:left;
+	padding:4px 6px;
+}
+#pagination-flickr a:link,
+#pagination-flickr a:visited {
+	color:#54A62F;
+	display:block;
+	float:left;
+	padding:3px 6px;
+	text-decoration:none;
+}
+/* =====end here=== */
+/* ========add new at 25-4-12 for more detail page of room/flat========= */
+.home_head {
+	
+	margin:0 0 10px;
+	width:270px;
+	float:left;
+}
+.home_left {
+	
+	width:284px;
+	float:left;
+}
+.home_right {
+	float:right;
+	width:350px;
+	margin-top:0;
+}
+.home_left table.home_info1 {
+	background:none repeat scroll 0 0 #FFFFFF;
+	padding:10px;
+}
+.contact_owner {
+	background:none repeat scroll 0 0 #60B041;
+	border:0 none;
+	color:#FFFFFF;
+	margin:20px 0 0;
+	padding:15px;
+	width:254px;
+	float:left;
+}
+#slideshow {
+	color:#FFFFFF;
+	list-style:none outside none;
+}
+.homepic_thumb {
+	list-style-type:none;
+	margin:10px 0 0 3px;
+	padding:0;
+}
+#wrapper.photo_album {
+	margin:0;
+	width:350px;
+}
+#wrapper.photo_album #fullsize {
+	background:none repeat scroll 0 0 #FFFFFF;
+	border:0 none;
+	padding:0;
+	width:350px;
+}
+#wrapper.photo_album #imgprev, #wrapper.photo_album #imgnext {
+	display:none;
+}
+#wrapper.photo_album #thumbnails #slideleft {
+	background:url("../img/left_arrow.gif") no-repeat scroll left top transparent;
+	cursor:pointer;
+}
+#wrapper.photo_album #thumbnails #slideright {
+	background:url("../img/right_arrow.gif") no-repeat scroll left top transparent;
+	cursor:pointer;
+}
+#imglink {
+	height:200px;
+	opacity:0.4;
+	position:absolute;
+	width:100%;
+	z-index:100;
+}
+
+#wrapper * {
+	margin:0;
+	padding:0;
+}
+#wrapper.photo_album #image {
+	background:none repeat scroll 0 0 #FFFFFF;
+	padding:0;
+	width:100%;
+}
+
+/********************25-04-2012***********************/
+.RoomFlatList{
+width:655px;
+padding:0;
+float:left;
+}
+.RoomFlatLi{
+width:635px;
+float:left;
+padding:10px;
+}
+.RoomFlatImg{
+float:left;
+padding:2px;
+background:#fff;
+border:1px solid #ccc;
+margin:0 8px 0 0;
+}
+.RoomFlatTxt{
+width:520px;
+float:left;
+}
+.RoomFlatList  .even{
+border-bottom:1px solid #ccc;
+border-left:0px;
+border-right:0px;
+border-top:0px;
+background:#eee;
+}
+.RoomFlatList  .odd{
+border-bottom:1px solid #ccc;
+border-left:0px;
+border-right:0px;
+border-top:0px;
+background:#fff;
+}
+.RoomFlatLi h1 span{
+font:bold 16px Arial, Helvetica, sans-serif;
+color:#5cac3b;
+}
+.RoomFlatLi h1.Price{
+font:bold 13px Arial, Helvetica, sans-serif;
+color:#fe6200;
+}
+
+.InnerMidCntR .RoomFlateDe{
+    border: 1px solid #CCCCCC;
+    display: block;
+    float: left;
+    list-style-type: none;
+    padding: 0;
+    width: 100%;
+	background:#fff;
+}
+.InnerMidCntR .RoomFlateDe li{
+width:350px;
+float:left;
+list-style-type:none;
+display:block;
+padding:0px;
+}
+.InnerMidCntR .RoomFlateDe li.RoomFlateLeft{
+background:#eee;
+width:286px;
+float:left;
+list-style-type:none;
+display:block;
+padding:5px;
+min-height:275px;
+}
+.home_head h1{
+font:bold 16px Arial, Helvetica, sans-serif;
+color:#5cac3b;
+}
+#wrapper.photo_album #image img{
+border-left-color:#fff !important;
+border-right-color:#fff !important;
+}
+.DescTxtM{
+width:626px;
+padding:5px 10px;
+background:#fff;
+border:1px solid #ccc;
+float:left;
+}
+.DescTxtM p{
+padding:6px 0;
+font:normal 12px/17px Arial, Helvetica, sans-serif;
+color:#666;
+}
+.home_info1 td{
+padding:4px 0;
+}
+.contact_owner td{
+	padding:4px 0;
+}
+/* add new at 26-4-12 for more detail page of room/flat */
+.additional_ftrnd {
+	float:left;
+	margin:30px 0 0;
+	width:100%;
+}
+/* add new at 30-4-12 */
+.contactOw{
+	color:#54A62F;	
+	font-size:14px;	
+}
+.back a{
+	color:#FE6200;	
+	font-size:14px;
+	float:right;
+}
+.MySearchKeyVal {
+	color:#787878;
+	float:left;
+	width:325px;
+}
+.sortOp{
+	font-size:14px;
+	float:right;
+}
+#LoadingDiv{
+	float:right;
+	
+}
+/* add new at 4-5-12 for facebook and tweeter*/
+.faceTwee{
+	float:right;
+	padding:0 0 5px;
+	width:100%;
+	text-align:right;
+}
+.CopyFtrCpyRht {
+	color:#B3B3B3;	
+	font-size:11px;
+	text-align:center;
+	width:100%;
+}
+/* ====add new at 9-5-12 for change password====== */
+.MyPassTxtbx {
+	background:url("../img/images/txtbx_bg.png") repeat-x scroll 0 0 #FFFFFF;
+	border:1px solid #C1C1C1;
+	color:#787878;
+	float:left;
+	height:25px;
+	line-height:25px;
+	padding:0 5px;
+	width:260px;
+}

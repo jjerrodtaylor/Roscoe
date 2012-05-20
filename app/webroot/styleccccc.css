@@ -1,0 +1,663 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	margin:0;
+	font-family:"Lucida Bright", "Times New Roman", sans-serif;
+	font-size:12px;
+	color:#6c6c6c;
+	background:#FFF;
+	position: relative;
+}
+
+.TopLinks {float:right;}
+.TopLink a {float:right; padding:0px 5px; text-decoration:none; text-align: right; font-family: Arial; font-size:14px;}
+.TopLink a:hover {float:right; padding:0px 5px; text-decoration:none; text-align: right; font-family: Arial; font-size:14px;}
+
+h1 {
+	font-size: 180%;
+}
+h2 {
+	font-size: 160%;
+}
+h3 {
+	font-size: 140%;
+}
+h4 {
+	font-size: 120%;
+}
+h5 {
+	font-size: 100%;
+}
+h6 {
+	font-size: 80%;
+}
+p, a, ul, li, h1, h2, h3, h4, h5, from {
+	padding:0px;
+	margin:0px;
+}
+img {
+	padding:0px;
+	margin:0px;
+	border:0px;
+}
+a:link {
+	text-decoration:none;
+	color:#2c96c7;
+}
+a:visited {
+	text-decoration:none;
+	color:#2c96c7;
+}
+a:hover {
+	text-decoration:none;
+	color:#2c96c7;
+}
+.Clr, .clr {
+	clear:both;
+}
+a img {
+	margin:0;
+	border:0;
+}
+.wrap{
+	width:97%;
+	margin:0 auto;
+	
+}
+.header{
+	width:100%;
+	padding:20px 0 80px 0;
+	
+}
+.header .logo{
+	float:left;
+	margin:0px;
+	padding:0px;
+}
+.header .search{
+	float:right;	
+}
+.SearchBlock{
+	/*border:1px solid #c4c4c4;
+	padding:3px 5px;
+	width:230px;
+	margin:2px 0 0 0;*/
+}
+.SearchBlock .InputBox{
+	font:12px "Lucida Bright", "Times New Roman", sans-serif;
+	border:0px;
+	padding:0px;
+	width:210px;
+}
+.SearchBlock .SearchBtn{
+	background:url(../img/images/search_btn.png) 0 0 no-repeat;
+	width:14px;
+	height:18px;
+	border:0px;
+	cursor:pointer;
+	position: absolute;
+	right:28px;
+	margin-top:2px
+
+}
+
+.DragArea{
+	background:url(../img/images/drag_back.gif) 0 0 no-repeat;
+	width:700px;
+	margin:0 auto;
+	text-align:center;
+	padding:130px 0 40px 0;
+	font-size:18px;
+	height:150px;
+
+	
+	
+}
+
+
+.Size45{
+	font-size:45px;
+}
+
+.ShareForm{
+	width:800px;
+	margin:0 auto;
+	text-align:center;
+	padding:40px 0 0 0;
+}
+.ShareForm .fileld{
+	display:inline-block;
+	border:3px solid #c4c4c4;
+	padding:5px;
+	width:230px;
+	margin:0 5px 15px 5px;
+	text-align:left;
+	color:#d56161;
+}
+.fileld1{
+	display:inline-block;
+	padding:5px;
+	width:230px;
+	margin:0 5px 15px 5px;
+	text-align:left;
+	color:#FC0000;
+}
+.fileld2{
+	width:230px;
+	pandding-top:200px;
+	margin:0 5px 15px 5px;
+	text-align:left;
+	color:#FC0000;
+}
+.ShareForm .fileld .InputBox{
+	font:17px "Lucida Bright", "Times New Roman", sans-serif;
+	border:0px;
+	padding:0px;
+}
+.Dragmessage{
+	border:0px;
+	padding:0px 0 0px 200px;;
+	
+
+}
+.Dragmessagetext{
+	font:17px "Lucida Bright", "Times New Roman", sans-serif;
+	border:0px;
+	padding:0px 0 0px 0px;;
+	color:green;
+	
+
+}
+.crossbutton {
+    float: right;
+    position: absolute;
+    right: 40px;
+    top: 0;
+    z-index: 3;
+}
+.ShareBtn{
+	background:url(../img/images/blue_btn.gif) 0 0 no-repeat;
+	width:452px;
+	padding:10px 0 15px;
+	cursor:pointer;
+	font:36px "Lucida Bright", "Times New Roman", sans-serif;
+	border:0px;
+	color:#FFF;
+}
+
+.ShareRegistration {
+	
+	width:580px;
+	height:auto;
+	margin:auto;
+	padding-top:100px;
+	
+	
+}
+.ShareRegistration a{
+	background:url(../img/images/blue_btnreg.gif) 0 0 no-repeat;
+	width:580px;
+	cursor:pointer;
+	font:25px "Lucida Bright", "Times New Roman", sans-serif;
+	border:0px;
+	color:#FFFFFF !important;
+	height:47px;
+	display:block;
+	text-align: center;
+	padding-top:20px;
+	margin:auto;
+}
+
+.ShareRegistration a:hover{
+	background:url(../img/images/blue_btnreg.gif) 0 0 no-repeat;
+	width:580px;
+	cursor:pointer;
+	font:25px "Lucida Bright", "Times New Roman", sans-serif;
+	border:0px;
+	color:#FFFFFF;
+	height:47px;
+	display:block;
+	text-align: center;
+	padding-top:20px;
+	margin:auto;
+}
+
+.ShareBtnaccount{
+	background:url(../img/images/blue_btn.gif) 0 0 no-repeat;
+	width:452px;
+	padding:10px 0 1px;
+	cursor:pointer;
+	font:36px "Lucida Bright", "Times New Roman", sans-serif;
+	border:0px;
+	color:#FFF;
+}
+.footer{
+	position:fixed;
+	width:100%;
+	padding:10px 0;
+	text-align:center;
+	font:11px Tahoma;
+	background:#f7f7f7;
+	bottom:0px;
+	left:0px;
+	color:#a6a6a6;
+}
+.footer a{
+	color:#a6a6a6;
+	background:url(../img/images/bullet.gif) 0 6px no-repeat;
+	padding:0 0 0 8px;
+	margin:0 0 0 5px;
+}
+.footer a:hover{
+	text-decoration:underline;
+}
+.InnerHeadText{
+	width:510px;
+	float:left;
+	font:normal 13px Arial;
+	color:#666;
+	padding:0 0 0 15px;
+}
+.InnerHeadText dl{
+	width:100%;
+	float:left;
+	font:normal 13px Arial;
+	color:#666;
+	padding:0;
+	margin:0;
+}
+.InnerHeadText dl dd{
+	float:left;
+	font:normal 13px Arial;
+	color:#666;
+	padding:7px 12px 0 0;
+	margin:0;
+}
+.InnerHeadText dl dt{
+	background:url(../img/images/input.png) no-repeat;
+	height:33px;
+	width:242px;
+	float:left;
+	font:normal 13px Arial;
+	color:#666;
+	padding:6px 0 0 8px;
+	margin:0;
+}
+.InnerHeadText dl dt input{
+		opacity:0.0;
+	filter:alpha(opacity=0);
+}
+.Middle{
+	width:97%;
+	margin:auto;
+}
+.ListBox{
+	width:100%;
+	float:left;
+}
+.ListTitle{
+	width:100%;
+	float:left;
+	border-bottom:1px solid #ccc;
+}
+.ListTitle h2{
+	width:400px;
+	float:left;
+	padding:0 0 7px 0;
+	font:bold 20px Arial;
+	color:#2C96C7;
+}
+.ListNaviBox{
+	float:right;
+}
+.ListNavi{
+	float:right;
+	list-style-type:none;
+	display:block;
+}
+.ListNavi li{
+	float:left;
+	padding:10px 10px 0 10px;
+	list-style-type:none;
+	display:block;
+}
+.ListNavi li a{
+	font-size:13px;
+	font-weight:bold;
+	border-top:1px solid #fff;
+	border-left:1px solid #fff;
+	border-right:1px solid #fff;
+	border-bottom:1px solid #fff;
+	padding:6px 16px 5px;
+	color:#000;
+	float:left;
+	margin:0 0 -1px 0;
+}
+.ListNavi li a:hover{
+	color:#2C96C7;
+	border-left:1px solid #ccc;
+	border-right:1px solid #ccc;
+	border-bottom:1px solid #fff;
+	border-top:1px solid #ccc;
+	padding:6px 16px;
+	float:left;
+}
+.ListNavi li a.select{
+	font-size:13px;
+	font-weight:bold;
+	border-top:1px solid #ccc;
+	border-left:1px solid #ccc;
+	border-right:1px solid #ccc;
+	border-bottom:1px solid #fff;
+	padding:6px 16px;
+	color:#2C96C7;
+	margin:0 0 -1px 0;
+	float:left;
+}
+.ListRow{
+	border-bottom: 1px solid #EEEEEE;
+    float: left;
+  
+    position: relative;
+    width: 100%;
+}
+.ListImg{
+	float:left;
+	padding:0 10px 0 0;
+	width:350px;
+	height:210px;
+}
+.ListImg img{
+	padding:4px;
+	border:1px solid #ecebeb;
+}
+.ListText{
+	width:500px;
+	float:left;
+}
+.InputClass{	
+	padding:4px 4px 4px 4px;
+	border:1px solid #dcdcdc;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:18px;
+	color:#000;
+	width:454px;
+	height:28px;
+	
+}
+.InputClass1{	
+	padding:4px 4px 4px 4px;
+	font-family:Arial, Helvetica, sans-serif;
+	border:1px solid #dcdcdc;
+	font-size:18px;
+	width:560px;
+	height:28px;
+	background-color:#ffffff;
+}
+.InputLogin{	
+	padding:4px 4px 4px 4px;
+	border:1px solid #dcdcdc;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:18px;
+	color:#000;
+	width:206px;
+	height:28px;
+}
+.BlueBtn{
+	display:block;
+	padding:2px 40px 6px;
+	font:bold 18px arial;
+	margin:0 10px 0 0;
+	border:0px;
+	cursor:pointer;
+	background: #177cab;
+	color:#FFF;
+	border:1px solid #04204c;
+}
+
+.SmallBlueBtn{
+	display:block;
+	float:left;
+	padding:2px 10px 6px;
+	font:bold 14px arial;
+	margin:0 10px 0 0;
+	border:0px;
+	cursor:pointer;
+	background:url(../img/BlueBtn.gif) left top repeat-x #0f3775;
+	color:#FFF;
+	border:1px solid #04204c;
+}
+.OrngBtn{
+	display:block;
+	float:left;
+	padding:4px 10px 6px;
+	font:bold 18px arial;
+	margin:0 10px 0 0;
+	border:0px;
+	cursor:pointer;
+	background:url(../img/OrngBtn.gif) left top repeat-x #177cab;
+	color:#FFF;
+	border:1px solid #177cab;
+}
+
+.ListText h3{
+	font:bold 15px Arial;
+	color:#000;
+	padding:0 0 4px 0;
+}
+.ListText span{
+	font:normal 12px Arial;
+	color:#666;
+}
+.ListText p{
+	font:normal 12px Arial;
+	color:#000;
+	padding:3px 0;
+}
+.ListText span a{
+	font:normal 12px Arial;
+	padding:0 0 0 8px;
+}
+.ListTextMidd{
+	width:100%;
+	float:left;
+	padding:5px 0 0 0;
+}
+.ListTextMidd dl{
+	width:400px;
+	float:left;
+	margin:0;
+	padding:0;
+}
+.ListTextMidd dl dd{
+	float:left;
+	margin:0;
+	padding:2px 8px 0 0;
+}
+.ListTextMidd dl dt{
+	float:left;
+	margin:0;
+	padding:0 0 0 0;
+}
+.ListTextMidd dl dt select	{
+	float:left;
+	border:1px solid #ccc;
+	background:#fff;
+	width:150px;
+	height:20px;
+}
+.ListView{
+	width:425px;
+	float:right;
+	text-align:right;
+}
+
+.message{
+    font-size:13px;
+	font-weight:bold;
+	text-align:center;
+	border:1px solid #fff;
+	background:#121212;
+	height:25px;
+	line-height:24px;
+	margin-bottom:10px;
+	
+}
+.flash_good{
+    font-size:13px;
+	font-weight:bold;
+	text-align:center;
+	border:1px solid #fff;
+	background:#342826;	
+	line-height:34px;
+	height:30px;
+	padding:0px 10 10 10;
+	color:#5dbc4b;
+	opacity: 0.5;
+	z-index:200px;
+}
+
+.flash_bad {
+   font-size:13px;
+	font-weight:bold;
+	text-align:center;
+	border:1px solid #fff;
+	background:#342826;
+	height:30px;
+	line-height:24px;
+	padding:5px 0 0 0;
+	color:#fc0000;
+	opacity: 0.5;
+   
+}
+.flash_good img, .flash_bad img {
+    float:right;
+}
+
+.select{
+    clear: both;
+    font-size: 120%;
+    vertical-align: text-bottom;
+}
+.worng_message{
+
+	color:#fc0000;
+	font:12px "Lucida Bright", "Times New Roman", sans-serif;
+
+}.messageusername
+{
+	color:#000000;
+	font:34px ;
+
+}
+/** //file:app/webroot/css/autocomplete.css **/
+/** search container **/
+.users{
+	width:640px;
+	margin:0 auto;
+	min-height:225px;
+}
+#content p{
+	width:640px;
+	margin:0 auto;
+	text-align:center;
+}
+#username1{
+	border:1px solid silver;
+	padding:3px 10px;
+	clear:none;
+	width:250px;
+	position:relative;
+	
+}
+.input{
+	clear:none;
+	float:left;
+}
+.submit{
+	clear:none;
+	float:right;
+	padding:20px 0;
+}
+
+/* Styling the markup generated by the autocomplete jQuery UI widget */
+
+ul.ui-autocomplete{
+	width:250px;
+	background-color:white;
+	border:1px solid gray;
+	margin-left:3px;
+	margin-top:-4px;
+	font-family:Helvetica, Arial,sans-serif;
+}
+
+ul.ui-autocomplete li{
+	list-style:none;
+	border-top:1px solid white;
+	border-left:1px solid white;
+	margin:0;
+}
+
+ul.ui-autocomplete li:first-child{
+	border-top:none;
+}
+
+ul.ui-autocomplete li:last-child{
+	border-bottom:none;
+}
+
+ul.ui-autocomplete li a{
+	border:none !important;
+	text-decoration:none !important;
+	padding:2px;
+	display:block;
+	color:black;
+}
+ul.ui-autocomplete li img{
+	margin-right:4px;
+}
+ul.ui-autocomplete li span{
+}
+
+#ui-active-menuitem{
+	background-color:#efefef;
+	cursor:pointer;
+}
+.InputClasssearch{	
+	padding:4px 4px 4px 4px;
+	border:1px solid #dcdcdc;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:18px;
+	color:#FF0080;
+	width:454px;
+	height:28px;
+	
+	
+}
+.textlogin{
+
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:18px;
+	color:#000;
+}
+.colorfile{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:18px;
+	color:#FF0080;
+
+}
+
+.InContent {width:100%; height:auto; padding:10px 0 0 0px; line-height:22px !important; font-size:13px; text-align:justify;}
+
+.PageHeading {width:100%; height:auto; padding:10px 0 0 0px; font-size:25px; color:#2C96C7;}
+.PageHeading1 {width:100%; height:auto; padding:10px 0 0 0px; font-size:20px; color:#2C96C7;}
+
+
+
+
+
+
+
+
+

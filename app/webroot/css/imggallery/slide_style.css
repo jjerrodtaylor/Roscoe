@@ -1,0 +1,87 @@
+/*
+Author : Onextrapixel
+URL: http://www.onextrapixel.com
+*/
+
+
+
+#wrap {
+
+	
+}
+
+/************************************************
+	      JCAROUSEL LITE		
+************************************************/
+#list {
+	
+	width:350px; 
+	margin-top:0px; 
+}
+
+.slider {
+	float:left;	
+	position:relative; 
+	visibility:hidden;	
+}
+	
+.slider ul {
+	padding:0 0 5px 0;
+	width:347px; 
+}
+
+.slider ul li {
+	padding:0 5px;
+}
+
+.slider ul li img {
+	cursor:pointer;	
+	padding-top:5px;
+	padding-left:2px;
+	
+}
+
+.prev {
+	cursor:pointer; 
+	float:left;
+  padding-top:4px;
+	
+}
+
+.next {
+	cursor:pointer; 
+	float:right; 
+  padding-top:4px;
+
+}
+
+/************************************************
+	      CAPTIFY CAPTION		
+************************************************/
+.caption-top, .caption-bottom {
+	background: #000000;
+	color: #ffffff; 
+	cursor:default;
+	padding:2px; 
+	font-size:11px;   
+	text-align:center;
+}
+
+.caption-top {
+	border-width:0px;
+}
+
+.caption-bottom {
+	border-width:0px;
+}
+
+.caption a, .caption a {
+	background:#000;
+	border:none; 
+	text-decoration:none;  
+	padding:2px;
+}
+
+.caption a:hover, .caption a:hover {
+	background:#202020;
+}
