@@ -1,0 +1,930 @@
+/** 
+ *  SeekQuarry/Yioop --
+ *  Open Source Pure PHP Search Engine, Crawler, and Indexer
+ *
+ *  Copyright (C) 2009 - 2012  Chris Pollett chris@pollett.org
+ *
+ *  LICENSE:
+ *
+ *  This program is free software: you can redistribute it and/or modify
+ *  it under the terms of the GNU General Public License as published by
+ *  the Free Software Foundation, either version 3 of the License, or
+ *  (at your option) any later version.
+ *
+ *  This program is distributed in the hope that it will be useful,
+ *  but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *  GNU General Public License for more details.
+ *
+ *  You should have received a copy of the GNU General Public License
+ *  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ *
+ *  END LICENSE
+ *
+ * @author Chris Pollett chris@pollett.org
+ * @package seek_quarry
+ * @subpackage stylesheet
+ * @license http://www.gnu.org/licenses/ GPL3
+ * @link http://www.seekquarry.com/
+ * @copyright 2009 - 2012
+ * @filesource
+ */
+ 
+ /*
+    search.css
+    
+    Main stylesheet for Yioop search engine
+    
+    Contributors: Chris Pollett
+ */ 
+
+.html-tb
+{
+    block-progression: tb;
+}
+
+.html-rl
+{
+    block-progression: rl;
+    -webkit-transform: rotate(90deg) translate(2in) ; 
+    -moz-transform: rotate(90deg) translate(2in);
+}
+
+.html-lr
+{
+    block-progression: lr;
+    -webkit-transform: rotate(90deg); 
+    -moz-transform: rotate(90deg);
+}
+
+.html-rtl
+{
+    direction: rtl;
+    text-align:right;
+}
+
+.html-ltr
+{
+    direction: ltr;
+    text-align:left;
+}
+
+body
+{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body.html-ltr
+{
+    margin-left:.5in;
+
+}
+
+ body.html-rtl
+{
+    margin-right:.5in;
+}
+
+body.html-rl-tb
+{
+    writing-mode: rl-tb;
+}
+
+body.html-lr-tb
+{
+    writing-mode: lr-tb;
+}
+
+body.html-tb-rl
+{
+    writing-mode: tb-rl;
+
+}
+
+body.html-tb-lr
+{
+    writing-mode: tb-lr;
+}
+
+#message
+{
+    text-align: center;
+    position: absolute;
+    top: .1in;
+    width: 100%;
+}
+
+.html-ltr .userNav
+{
+    text-align: right;
+    margin:0 0.25in 0 0;
+    padding:0;
+    min-width: 9in;
+}
+
+.html-rtl .userNav
+{
+    text-align: left;
+    margin:0 0 0 0.25in;
+    padding:0;
+    min-width: 9in;
+}
+
+.html-ltr .userNav ul li
+{
+    display: inline;
+    list-style-type: none;
+    padding-left: 3px; 
+    border-left: 1px solid #000;
+}
+
+.html-rtl .userNav ul li
+{
+    display:inline;
+    list-style-type: none;
+    padding-right: 3px;  
+    border-right: 1px solid #000;
+}
+
+.landing-spacer 
+{
+    height:6in;
+}
+.html-ltr .landing
+{
+    position:absolute;
+    top:1.5in;
+    left:12%;
+    min-width:6in;
+    clear: both;
+}
+
+.html-rtl .landing
+{
+    position:absolute;
+    top:1.5in;
+    right:12%;
+    min-width:6in;
+}
+
+.landing .logo
+{
+    text-align:center;
+    min-width: 8in;
+}
+
+.logo
+{
+    margin:0;
+
+}
+
+.logo img
+{
+    border: 0;
+    width:2in;
+}
+
+.landing .logo img
+{
+    border: 0;
+    width:3in;
+}
+
+.logo span
+{
+    position:relative;
+    top: -.3in;
+}
+
+.html-ltr .login, .html-ltr .settings
+{
+    font-size: 16pt;
+    position:relative;
+    left:2.25in;
+}
+
+.html-rtl .login, .html-rtl .settings
+{
+    font-size: 16pt;
+    position:relative;
+    right:2.25in;
+}
+
+.html-ltr .table-label
+{
+    text-align: right;
+}
+.html-ltr .table-input
+{
+    text-align: left;
+}
+
+.html-rtl .table-label
+{
+    text-align: left;
+}
+.html-rtl .table-input
+{
+    text-align: right;
+}
+
+.login input
+{
+    margin: 5px;
+    font-size:16pt;
+}
+
+.settings button, .settings select, .login button
+{
+    font-size: 16pt;
+}
+
+.content
+{
+    position:relative;
+    margin-left: .5in;
+    margin-right: .5in;
+    width:8in;
+    min-width: 10in;
+    min-height:3in;
+    padding: 8px;
+    font-size:12pt;
+    background-color:white;
+}
+.content p
+{
+    padding-bottom: 8px;
+}
+
+.html-ltr .serp
+{
+    position:relative;
+    top: -0.9in;
+    left:2.2in;
+}
+.html-ltr .serp-results
+{
+    position:relative;
+    top: -0.9in;
+    left:1in;
+}
+.html-rtl .serp
+{
+    position:relative;
+    top: -1.15in;
+    right:2.2in;
+}
+.html-rtl .serp-results
+{
+    position:relative;
+    top: -1in;
+    right:1in;
+}
+.searchbox
+{
+    width:8in;
+    padding: 0.1in;
+    background-color: #DDF;
+    border-width: 0.05in;
+    border-color: #AAA;
+    border-style: solid;
+    border-radius: 0.07in;
+}
+
+.searchbox p
+{
+    font-size:16pt;
+}
+
+.searchbox input, .autoresult, .dropdown
+{
+    width: 6.5in;
+    font-size:16pt;
+    margin-right:0;
+    margin-left:0;
+    border:0;
+    padding-top: 0;
+    padding-bottom:0.05in;
+    padding-right:0;
+    padding-left:0;
+    margin:0;
+}
+
+
+#aslist li
+{
+    position:relative;
+    top:-0.015in;
+    background:#DDF;
+    width: 6.6in;
+    font-size:16pt;
+    margin-right:0in;
+    margin-left:0in;
+    padding-top:0;
+    padding-right:0;
+    padding-left:0.1in;
+    cursor:pointer;
+    list-style:none;
+    border-color: #AAA;
+    border-width: 0.05in;
+    border-top-style:none;
+    border-right-style:solid;
+    border-bottom-style:none;
+    border-left-style:solid;
+}
+
+#aslist li:last-child
+{
+    border-bottom-style:solid;
+    border-bottom-right-radius: 0.05in;
+    border-bottom-left-radius: 0.05in;
+    padding-bottom:0.1in;
+}
+
+#aslist li span
+{
+    background:white;
+    width:6.5in;
+    padding:0;
+    margin:0;
+    display:block
+}
+
+#aslist li:hover span
+{
+    background:#AAE;
+    color:black;
+}
+
+.html-ltr .buttonbox
+{
+    position:relative;
+    left:-.05in;
+    top:.015in;
+    margin-left: 0pt;
+    text-align: center;
+    text-decoration: none;
+    font-size:16pt;
+    color: black;
+}
+
+.html-rtl .buttonbox
+{
+    position:relative;
+    right:-.05in;
+    top:.015in;
+    margin-right: 0pt;
+    text-align: center;
+    text-decoration: none;
+    font-size:16pt;
+    color: black;
+}
+
+.pagination
+{
+    margin-top: 10px;
+    margin-bottom: 10px
+}
+
+.html-ltr .pagination ul, .pagination ul li
+{
+    font-size: 20pt;
+
+    display:inline;
+    padding-left: 0px;
+    padding-right: 10px;
+}
+
+.html-rtl .pagination ul, .pagination ul li
+{
+    font-size: 20pt;
+
+    display:inline;
+    padding-left: 10px;
+    padding-right: 0px;
+}
+
+.html-ltr .pagination ul li span.end
+{
+    display:block;
+    float:left;
+    margin-right: 10px;  
+}
+
+.html-rtl .pagination ul li span.end
+{
+    display: block;
+    float: right;
+    margin-left: 10px;  
+}
+
+.html-ltr .pagination ul li a.item
+{
+    display:block;
+    float:left;
+    width: 30px;
+    height: 30px;
+    text-align:center;
+    border-color: blue; 
+    border-style: solid;
+    border-width: 3px;
+    margin-right: 10px;
+    text-decoration:none;
+}
+
+.html-rtl .pagination ul li a.item
+{
+    display:block;
+    float:right;
+    width: 30px;
+    height: 30px;
+    text-align:center;
+    border-color: blue; 
+    border-style: solid;
+    border-width: 3px;
+    margin-left: 10px;
+    text-decoration:none;
+}
+
+.pagination ul li a.item:hover
+{
+    background-color:#88F;
+    color: white;
+}
+
+.html-ltr .pagination ul li span.item
+{
+    position: relative;
+    top: -3px;
+    display: block;
+    float:left;
+    width: 30px;
+    height: 30px;
+    text-align:center;
+    border-color: black; 
+    border-style: solid;
+    border-width: 5px;
+    margin-right: 10px;
+}
+
+.html-rtl .pagination ul li span.item
+{
+    position: relative;
+    top: -3px;
+    display: block;
+    float:right;
+    width: 30px;
+    height: 30px;
+    text-align:center;
+    border-color: black; 
+    border-style: solid;
+    border-width: 5px;
+    margin-left: 10px;
+}
+
+h2
+{
+    margin-bottom:0;
+}
+
+p
+{
+    width: 8.25in;
+    margin:0;
+    padding:0;
+}
+
+.result h2
+{
+    font-weight:normal;
+}
+
+.echolink
+{
+    color:green
+}
+
+.left
+{
+    float:left;
+}
+
+.right
+{
+    float:right;
+}
+
+.alignRight
+{
+    text-align:right;
+}
+
+.red
+{
+    color:red;
+}
+
+.highlight, .backred
+{
+    background-color:red;
+}
+
+.backgreen
+{
+    background-color:green;
+}
+
+.backgray
+{
+    background-color: lightgray;
+}
+
+.frame
+{
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+
+.setting-footer, .signin-exit, .landing-footer
+{
+    margin-top: 0.25in;
+    text-align: center;
+}
+
+.html-ltr .sidemenu
+{
+    float: left;
+    width: 2.5in;
+    padding: 0;
+    border-radius: 8px;
+}
+
+.html-rtl .sidemenu
+{
+    float: right;
+    width: 2.5in;
+    padding: 0;
+    border-radius: 8px;
+}
+
+.sidemenu h2
+{
+    color: #222;
+    background-color:#8A4;
+    margin: 0;
+    padding: .05in .15in .05in .15in ;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+}
+
+.sidemenu li
+{
+    list-style-type:none;
+    list-style-position:inside;
+    margin: 0;
+    padding: .10in;
+}
+
+.sidemenu li.bottom_border
+{
+    border-bottom: 1px solid #ccc;
+}
+
+.sidemenu li a
+{
+    color:#222;
+    text-decoration: none;
+}
+
+.sidemenu li a:hover
+{
+    color:#222;
+    text-decoration: underline;
+}
+
+.sidemenu ul
+{
+    display: block;
+    padding: 0;
+    margin: 0;
+    border-radius: 8px;
+}
+
+.html-ltr .currentactivity
+{
+    position: relative;
+
+    margin-left: 2.75in;
+    padding-left: .1in;
+    padding-right: .1in;
+    padding-bottom: .1in;
+    width: 8in;
+    min-width: 7in;
+    min-height: 6in;
+    font-size:16pt;
+    background-color: #fff;
+    border: 1px solid #ccc;
+
+    border-radius: 8px;
+}
+
+.html-rtl .currentactivity
+{
+    position: relative;
+
+    margin-right: 2.75in;
+    padding-right: .1in;
+    padding-left: .1in;
+    padding-bottom: .1in;
+    width: 8in;
+    min-width: 7in;
+    min-height: 6in;
+    font-size:16pt;
+    background-color: #fff;
+    border: 1px solid #ccc;
+
+    border-radius: 8px;
+}
+
+
+.currentactivity h2
+{
+    padding-top: .05in;
+    margin-top: .05in; 
+}
+
+.currentactivity input
+{
+    font-size: 16pt;
+    position: relative;
+    top: 2px;
+}
+
+.currentactivity object
+{
+    width: 8in;
+    min-width: 6in;
+    height:2in;
+}
+
+.currentactivity select
+{
+    font-size:16pt;
+}
+
+.html-ltr .roletable, .html-ltr .roletable th, .html-ltr .roletable td
+{
+    margin-left: .2in;
+    padding: 1px;
+    border: 1px solid black;
+}
+
+.html-rtl .roletable, .html-rtl .roletable th, .html-rtl .roletable td
+{
+    margin-right: .2in;
+    padding: 1px;
+    border: 1px solid black;
+}
+
+.html-ltr .localetable, .html-ltr .localetable th, .html-ltr .localetable td
+{
+    margin-left: .2in;
+    border: 1px ridge black;
+}
+
+.html-rtl .localetable, .html-rtl .localetable th, .html-rtl .localetable td
+{
+    margin-right: .2in;
+    border: 1px ridge black;
+}
+
+
+.tabmenu-list
+{
+    border-bottom: 2px solid black;
+    padding: 0px;
+    margin-bottom: 0px;
+    z-index: 1;
+}
+.tabmenu-list li
+{
+    display: inline;
+    list-style-type: none;
+}
+
+.tabmenu-list a
+{
+    border: 1px solid black;
+    border-bottom: 0px;
+    padding: 5px 5px 0px 5px;
+    background-color:#EEE;
+    overflow: hidden;
+    margin: 0;
+    text-decoration: none;
+}
+
+.tabmenu-list a.active
+{
+    background-color:white;
+    border-bottom: 3px solid white;
+}
+
+.tabmenu-content
+{
+    border: 1px solid black;
+    border-top: none;
+    padding: 10px;
+    z-index: 2;
+}
+
+.crawlstable, .mixestable, .crawlstable th, .mixestable th, 
+.crawlstable td, .mixestable td, .filetypestable
+{
+    border: 1px ridge black;
+    padding: 2px;
+}
+
+.crawlstable th,  .mixestable th, .crawlstable td, .mixestable td,
+.filetypestable td
+{
+    border: 1px ridge black;
+    padding: 2px;
+}
+
+.html-ltr .filetypestable, .html-ltr .ftypesall td
+{
+   margin-left: .3in;
+   vertical-align: top;
+}
+
+.html-rtl  .filetypestable, .html-rtl .ftypesall td
+{
+   margin-right: .3in;
+   vertical-align: top;
+}
+
+.html-ltr .weightstable th 
+{
+    text-align: right;
+}
+
+.html-rtl .weightstable th 
+{
+    text-align: left;
+}
+
+.machinetable, .machinetable th, .machinetable td
+{
+    border: 1px ridge black;
+    margin: 2px;
+    padding: 3px;
+}
+
+.toggletable, .toggletable td
+{
+    border: 1px ridge black;
+}
+
+.translatetable, .translatetable th, .translatetable td, .filetypestable td
+{
+    border: 1px ridge black;
+}
+
+.metawordstable
+{
+   width:100%;
+}
+.metawordstable, .metawordstable th, .metawordstable td
+{
+    border: 1px ridge black;
+}
+.metawordstable th
+{
+    text-align: center;
+    padding: .04in;
+}
+.metawordstable td.input-word
+{
+    width: 1.5in;
+}
+.metawordstable td.input-word input
+{
+    width: 1.3in;
+    margin:.05in;
+}
+.metawordstable td.input-url
+{
+    margin:.03in;
+    width: 100%;
+}
+.metawordstable td.input-url input
+{
+    margin:.05in;
+    width: 97%;
+}
+
+.indexingplugintable
+{
+   width:100%;
+}
+.indexingplugintable, .indexingplugintable th, .indexingplugintable td
+{
+    border: 1px ridge black;
+    text-align: center;
+}
+.indexingplugintable th
+{
+    padding: .04in;
+}
+
+.indexingplugintable td.check
+{
+    text-align: center;
+    width: 75%;
+    padding: .1in;
+}
+
+
+#query-statistics
+{
+    margin-top: .2in;
+    border-top: 2px solid gray;
+    color: gray;
+}
+
+.query
+{
+    margin: .1in;
+    border: 1px solid gray;
+    padding: .05in;
+}
+
+.nametable
+{
+    padding: 5px;
+}
+
+.narrowfield
+{
+    width:2in;
+}
+
+.widefield
+{
+    width:3in;
+}
+
+.extrawidefield
+{
+    width:5in;
+}
+.talltextarea
+{
+    font-size:16pt;
+    width:100%;
+    height:4in;
+}
+
+.shorttextarea
+{
+    width:100%;
+    height:1in;
+}
+
+.center
+{
+    text-align:center;
+}
+
+.topmargin
+{
+    margin-top: .2in;
+}
+
+.nomargin
+{
+    margin: 0;
+}
+
+.box
+{
+    border: 1px ridge #ccc;
+    padding: 3px;
+}
+
+.slightpad
+{
+    padding: .1in;
+}
+
+fieldset
+{
+    border-color:black;
+}
+
+#restrict-sites-by-url
+{
+    width:.25in; 
+    height:.25in;
+}
