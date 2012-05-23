@@ -36,7 +36,7 @@ class Amenity extends AppModel {
 						),
 			 'isUnique'=>array(
 						'rule'=>'isUnique',
-						'message'=>'This is already exists.'
+						'message'=>'This already exists.'
 						)   
 	        ),
 		)

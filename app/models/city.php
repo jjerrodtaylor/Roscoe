@@ -28,7 +28,7 @@ class City extends AppModel{
 				'name'=>array(
 						'isUnique'=>array(
 							'rule'	=>	array('uniqueCity', array('name')),
-							'message'	=>	'Name is already exists.'	
+							'message'	=>	'Name already exists.'	
 						),
 						'notEmpty'=>array(
 							'rule'=>'notEmpty',
