@@ -23,7 +23,8 @@ class AmenitiesController extends AppController {
 	var $helpers = array('General','Form','Ajax','javascript','Paginator');
 	var $components = array("Session", "Email","Auth","RequestHandler");
 	 
-	 var $uses	=	array('Amenity');
+	var $uses	=	array('Amenity');
+	
 	 
 	/**
 	 * beforeFilter
@@ -34,36 +35,65 @@ class AmenitiesController extends AppController {
 		parent::beforeFilter();
 	 }
 	/*	* List all states in admin panel	*/
-	function admin_index(){
-		$filters = array();		
+	 
+	
+	
+	function admin_index()
+	{		
+		$this->amenity_session_check();	
+		$filters = $this->get_amenity_filters();
+		$this->define_amenity_pagination_defaults($filters);
+		$data = $this->paginate('Amenity');  
+		$this->set(compact('data'));	 
+		$this->set('title_for_layout',  __('Amenity', true));	
+	}
+	
+	function amenity_session_check()
+	{
 		if(!isset($this->params['named']['page'])){
 			$this->Session->delete('AmenitySearch');
 		}
+		
 		if(!empty($this->data)){
 			$this->Session->delete('AmenitySearch');
 			if(!empty($this->data['Amenity']['name'])){
 				$keyword = Sanitize::escape($this->data['Amenity']['name']);
 				$this->Session->write('AmenitySearch', $keyword);				
 			}				
-		}
-
+		}	
+	}
+	
+	/*
+	 *Set the fileters for the amenity search if there are any 
+	 */
+	function get_amenity_filters()
+	{
+		$filters = null;
+		
 		if($this->Session->check('AmenitySearch')){		
 			$filters[] = array('Amenity.name LIKE'=>"%".$this->Session->read('AmenitySearch')."%");					
 		}
-		$this->paginate['Amenity'] = array(
-								'limit'=>Configure::read('App.AdminPageLimit'), 
-								'order'=>array('Amenity.name'=>'ASC'),
-								'conditions'=>$filters
-								);
 
-		$data = $this->paginate('Amenity');  
-		$this->set(compact('data'));	 
-		$this->set('title_for_layout',  __('Amenity', true));
-		
-		
+		return $filters;
 	}
+	
+	/*
+	 *Defining the pagination defaults in the $paginate controller variable. 
+	 */
+	function define_amenity_pagination_defaults($filters)
+	{
+		$this->paginate['Amenity'] = array(
+			'limit' => Configure::read('App.AdminPageLimit'),
+			'order' => array('Amenity.name' => 'ASC'),
+			'conditions' => $filters
+		);	
+	}
+	
+	//I believe that this function allows the admin to add an amenity from the control panel
 	function admin_add(){
 		$this->set('title_for_layout', __('Add New Amenity', true));
+		
+		//if data isn't empty
 		if(!empty($this->data)) {
 			$this->data['Amenity'] = $this->General->myclean($this->data['Amenity']);			
 			$this->Amenity->set($this->data);
@@ -129,6 +159,7 @@ class AmenitiesController extends AppController {
 		$this->Session->setFlash('Amenity has not deleted', 'admin_flash_bad');
 		$this->redirect(array('action' => 'index'));
 	}
+	
 	function admin_process(){		   
 
 		if(!empty($this->data)){
